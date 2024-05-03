@@ -80,14 +80,14 @@ const Navbar = () => {
                                     <ul className="menu menu-horizontal px-1 text-white font-medium">
                                         <li><a href="#universe">Universe</a></li>
                                         <li><a href="#astro">Astrology</a></li>
-                                        <li><a href="#timeline">Cosmos Timeline</a></li>
+                                      {/*  <li><a href="#timeline">Cosmos Timeline</a></li> */}
                                         <li><a href="#bigbang">Big Bang</a></li>
                                         <li><a href="#star">Star</a></li>
                                         <li><a href="#galaxy">Galaxy</a></li>
                                         {/* <li><a href="#meteors">Meteors</a></li> */}
                                         <li><a href="#nebula">Nebulae</a></li>
-                                        <li><a href="#blackHole">BlackHole</a></li>
-                                        <li><a href="#darkM">Dark Energy & Matter</a></li>
+                                       {/* <li><a href="#blackHole">BlackHole</a></li> */}
+                                       {/* <li><a href="#darkM">Dark Energy & Matter</a></li> */}
                                         <li>
                                             <details>
                                                 <summary>Solar System</summary>
