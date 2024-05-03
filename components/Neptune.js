@@ -1,5 +1,5 @@
 import SectionHead from "./SectionHead"
-import test from "../images/neptune.png"
+import test from "../images/Neptune.png"
 import Image from "next/image"
 
 export default function Planet() {
