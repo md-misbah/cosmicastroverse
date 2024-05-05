@@ -20,7 +20,7 @@ export default function Hero() {
                         <p className="mb-12 font-medium text-white ">Embark on an awe-inspiring odyssey through the vast realms of astrophysics and cosmology, delving deep into the enigmatic mysteries of the universe. From the cataclysmic origins of the Big Bang to the cosmic phenomena of black holes, join us in the eternal quest to unravel the secrets of existence.</p>
                         
                         
-                        <div className="heroBtnWrap gap-8">
+                        <div className="heroBtnWrap flex justify-center gap-8">
                             <Button btnVal="Get Started" />
                             <Button btnVal="Explore" />
                         </div>
