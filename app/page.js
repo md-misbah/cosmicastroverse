@@ -1,3 +1,4 @@
+import ScrollToTopButton from "@/components/ScrollTop"
 import Astrology from "@/components/Astrology";
 import BigBang from "@/components/BigBang";
 import Galaxy from "@/components/Galaxy";
@@ -21,7 +22,6 @@ import Dark from "@/components/DarkME"
 import Nebula from "@/components/Nebula"
 import Meteors from "@/components/Meteors"
 import Universe from "@/components/Universe"
-import ScrollToTopButton from "@/components/ScrollTop"
 import Footer from "@/components/Footer";
 
 
@@ -29,7 +29,7 @@ import { Exo_2 } from "next/font/google";
 const exo_2 = Exo_2({
   subsets: ["latin"],
   display: "swap",
-  variable: "--poppins-font",
+  // variable: "--poppins-font",
   weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
   style: ["normal"],
 });
@@ -39,7 +39,8 @@ export default function Home() {
   return (
     <main className={exo_2.className}>
       
-         <Navbar />
+      <Navbar />
+      <ScrollToTopButton/>
       <Hero/>
       <Universe/>
       <Astrology />
@@ -62,7 +63,6 @@ export default function Home() {
       <Saturn />
       <Uranus />
       <Neptune />
-      <ScrollToTopButton/>
       <Footer/>
       
     </main>
