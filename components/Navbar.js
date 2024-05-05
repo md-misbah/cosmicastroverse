@@ -74,7 +74,7 @@ const Navbar = () => {
                                             </li>
                                         </ul>
                                     </div>
-                                    <a href="#hero" className="btn btn-ghost csBtn text-3xl font-bold multiColorTxt">Cosmic Astro-Verse</a>
+                                    <a href="#hero" className="btn btn-ghost csBtn text-3xl font-bold multiColorTxt">Cosmic Verse</a>
                                 </div>
                                 <div className="navbar-center hidden lg:flex">
                                     <ul className="menu menu-horizontal px-1 text-white font-medium">
