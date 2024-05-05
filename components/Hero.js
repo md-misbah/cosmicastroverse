@@ -21,8 +21,8 @@ export default function Hero() {
                         
                         
                         <div className="heroBtnWrap sm:block md:block lg:grid grid-cols-2 gap-x-8 gap-y-8">
-                            <Button btnVal="Get Started" />
-                            <Button btnVal="Explore" />
+                            <Button btnVal="Get Started" className="mb-8"/>
+                            <Button btnVal="Explore" className="mb-8"/>
                         </div>
 
                        
