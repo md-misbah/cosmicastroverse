@@ -25,6 +25,8 @@
   transition: 0.5s;
   backdrop-filter: blur(1rem);
   border-radius: 5rem;
+  top: 0;
+  left: 0;
 }
 
 strong {
