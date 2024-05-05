@@ -1,7 +1,7 @@
 import "./globals.css";
 
 export const metadata = {
-  title: "Cosmic Astro-Verse : A journey into Astrophysics & Cosmology",
+  title: "Cosmic Verse : A journey into Astrophysics & Cosmology",
   description: "A journey into Astrophysics & Cosmology",
 };
 
