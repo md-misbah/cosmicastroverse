@@ -4,7 +4,7 @@ import { Exo_2 } from "next/font/google";
 const exo_2 = Exo_2({
     subsets: ["latin"],
     display: "swap",
-    variable: "--poppins-font",
+    // variable: "--poppins-font",
     weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
     style: ["normal"],
 });
@@ -35,7 +35,7 @@ const Navbar = () => {
         // className={`navbar w-full ${isSticky ? 'sticky' : ''}` }
         className="fixed w-full z-[99999]"
         >
-            <div className="dos">
+            <div className="glassEfl">
                 <div className={exo_2.className}>
                     <div className="container ">
                         <div className="w-11/12 mx-auto">
