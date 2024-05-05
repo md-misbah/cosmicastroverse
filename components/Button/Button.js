@@ -5,7 +5,7 @@ export default function Button(props) {
   return (
 <button className="btn" type="button">
     <a href="#universe">
-        <strong>props.btnVal</strong>
+        <strong>{props.btnVal}</strong>
         <div id="container-stars">
             <div id="stars" />
         </div>
