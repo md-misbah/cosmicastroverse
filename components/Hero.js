@@ -20,9 +20,9 @@ export default function Hero() {
                         <p className="mb-12 font-medium text-white ">Embark on an awe-inspiring odyssey through the vast realms of astrophysics and cosmology, delving deep into the enigmatic mysteries of the universe. From the cataclysmic origins of the Big Bang to the cosmic phenomena of black holes, join us in the eternal quest to unravel the secrets of existence.</p>
                         
                         
-                        <div className="heroBtnWrap sm:block md:block lg:grid grid-cols-2 gap-x-8 gap-y-8">
-                            <Button btnVal="Get Started" className="mb-8"/>
-                            <Button btnVal="Explore" className="mb-8"/>
+                        <div className="heroBtnWrap gap-8">
+                            <Button btnVal="Get Started" />
+                            <Button btnVal="Explore" />
                         </div>
 
                        
