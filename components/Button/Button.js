@@ -3,7 +3,7 @@ import './Button.css'
 
 export default function Button(props) {
   return (
-<button className="btn" type="button">
+<button className="custombtn" type="button">
     <a href="#universe">
         <strong>{props.btnVal}</strong>
         <div id="container-stars">
